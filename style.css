@@ -1,0 +1,418 @@
+body{
+    background-color: black;
+}
+#generalContainer{
+    width: 100%;
+    height: 3406px;
+    background-color: black; 
+    display: flex;
+    justify-content: center; 
+}
+#secondGeneralBlock{
+    width: 80%;
+    height: 3406px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#blockHead{
+    display: flex;
+    width: 100%;
+}
+.divHead{
+    width: 20%;
+    height: 100px;
+    margin-right: 1px;
+    background-color: #6884a5;
+        font-family: Noto Sans Boldd;
+    color: white;
+    font-size: 140%;
+
+}
+.divHead:hover{
+    background-color: deepskyblue;
+}
+
+#mainPhoto{
+    background-image: url(bg.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+#divData{
+    display: flex;   
+}
+.pTime{
+    color: #f0f8ff;
+    font-size: 55px;
+    text-align: center;
+}
+.pTime2{
+    font-size: 20px;
+    color: #f0f8ff;    /*white*/
+    text-align: center;
+}
+.divData{
+    background-color: #758eb2;
+    width: 25%;
+    display: block;
+}
+.divData .day131, .nextBurn, .target{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #f0f8ff;
+    font-family: Noto Sans Boldd;
+}
+.enebled, .trusterTemp{
+     display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #00fffa;
+}
+#alarms{
+    display: flex;
+}
+.classAlarms{
+    color:#f0f8ff;
+    text-transform: uppercase;
+    font-size:28px;
+     font-family: Noto Sans Mediumm;
+}
+.alarms{
+    width: 100%;
+    height: 150px;
+    background-color: #6884a5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#blockAlarm{
+    background-color: #6884a5;
+    display: flex;
+    justify-content: space-between;
+    height: 230px;
+    width: 100%;
+  
+}
+#oneBlockAlarm{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+#next{
+   display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border: 1px solid grey;
+    background-color: #758eb2;
+}
+#estimated{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border: 1px solid grey;
+    background-color: #758eb2;
+    margin-top: 20px;
+}
+
+
+#twoBlockAlarm{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+#deorbit{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border: 1px solid grey;
+    background-color: #758eb2;
+}
+#retrograd{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border: 1px solid grey;
+    background-color: #758eb2;
+    margin-top: 20px;
+}
+.classttime{
+    color: #f0f8ff;
+    font-family: Noto Sans Mediumm;
+    font-size: 30px;
+
+}
+.greyText{
+    color: #d3cec9;
+}
+.retrogradd{
+    color: #7fffd4;
+}
+.currrent{
+    color: white;
+}
+.classWhite{
+    color: white;
+}
+#blockSchedule{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+#schedule1{
+    width: 50%;
+}
+.clShedule{
+    color: white;
+    font-family: Noto Sans Mediumm;
+    font-size: 28px;
+}
+#schedule2{
+    width: 50%;
+    display: flex;
+    justify-content:flex-end; 
+}
+#wrapperSchedule{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #6884a5;
+}
+.colorGrey{
+    color: grey;
+}
+#divTime{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#polosa{
+    width: 5%;
+    height: 250px;
+    background-image: url(polosa.png);
+    background-size: cover;
+}
+#wrapperTime{
+    width: 100%;
+    background-color: #6884a5;
+    display: flex;
+}
+#timeBlock{
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+}
+#randzevous{
+    width: 59%;
+    display: flex;
+    justify-content: space-between;
+}
+#randzevous1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+#randzevous2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+.classRandzevous, .classTime{
+    margin-top: 28px;
+    color: white;
+}
+#wrapperRandzevousApproach{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    background-color: #6884a5;
+}
+#randzevousApproach{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#rand{
+    width: 49%;
+       background-color: #92b0d5;
+    color: white;
+            font-family: Noto Sans Mediumm;
+}
+#approach{
+    width: 49%;
+       background-color: #92b0d5;
+    color: white;
+            font-family: Noto Sans Mediumm;
+
+}
+#wrapperTable{
+    width: 100%;
+    height: 334px;
+    background-color: #6884a5;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+#ground, #tdrs, #iss, #eclipse, #burn, #crew{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.ground, .tdrs, .iss, .eclipse, .burn, .crew{
+    width: 9%;
+    background-color: #758eb2;
+    margin-top: 4px;
+}
+.hr1{
+    width: 100%;
+    height: 2px;
+    color: black;
+}
+#allSystems{
+    width: 100%;
+    height: 50px;
+    background-color: #6884a5;
+}
+#diagrams{
+    width: 100%;
+    background-color: #6884a5;
+    display: flex;
+    justify-content: space-between;
+}
+.diagrams{
+    width: 19%;
+    background-color: #758eb2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+            font-family: Noto Sans Mediumm;
+
+}
+.stable{
+    color: #7fffd4;
+}
+.percent{
+    font-size: 40px;
+}
+#blockCommunication{
+    width: 100%;
+    height: 340px;
+    display: flex;
+}
+#divCommunication{
+    width: 45%;
+    background-image: url(Communication.png);
+   background-size: cover;
+}
+#divComputersWrapper{
+    width: 55%;
+    background-color: #6884a5;
+
+}
+#divNitrox{
+    width: 100%;
+    height: 260px;
+    background-image: url(Computers.png);
+       background-size: 100% 100%;
+}
+#liveSupport{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.support{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pSupport{
+    color: #7fffd4;
+    font-size: 134%;
+}
+.hrSupport{
+    border: none;
+    background-color: rgba(104, 152, 195, 1);
+    height: 3px;
+    margin: 0 20px;
+}
+#viewKey{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #6884a5;
+    color: white;
+        font-family: Noto Sans Boldd;
+
+}
+#valves{
+    width: 50%;
+}
+#blockViewKey{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+#blockFooter{
+    width: 100%;
+    height: 915px;
+    background-image: url(lastOne.png);
+    background-size: cover;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #6884a5;
+}
+.ulFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.ulFooter li {
+    list-style: none;
+    color: #51ebff;
+    font-size: 145%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
